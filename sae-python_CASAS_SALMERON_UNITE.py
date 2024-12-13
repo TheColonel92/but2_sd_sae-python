@@ -144,3 +144,16 @@ def svd_1d(X, epsilon=1e-10):
 
 columns=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P"]
 index=["HighSchool", "AgricultCoop", "Railstation", "OneRoomSchool", "Veterinary", "NoDoctor", "NoWaterSupply",  "PoliceStation", "LandReallocation"]
+
+
+
+#%%script false --no-raise-error
+def reordonner(X, u, v):
+    """
+        renvoie les lignes et les colonnes de X réorganisées  par rapport au tri des vecteurs  u et v
+        utiliser argsort() pour trier les vecteurs u et v
+    """
+    
+    à completer le code ici...
+ 
+    return X_reordonnee
