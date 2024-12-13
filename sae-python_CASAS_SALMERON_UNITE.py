@@ -1,3 +1,5 @@
+!pip3 install -U ucimlrepo
+
 import ucimlrepo
 
 from ucimlrepo import fetch_ucirepo 
