@@ -22,3 +22,15 @@ y = statlog_german_credit_data.data.targets
 # variable information 
 #print(statlog_german_credit_data.variables) 
 print(statlog_german_credit_data.variables[['name','description']])
+
+
+# Chargement des libraiies numpy, pands, matplolib, math et  random
+import numpy as np
+from numpy.linalg import norm
+from random import normalvariate
+from math import sqrt
+#from scipy.io import loadmat
+import matplotlib.pylab as plt
+import pandas as pd
+
+
