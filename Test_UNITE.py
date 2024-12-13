@@ -1,3 +1,4 @@
+pip install ucimlrepo
 # Importer les bibliothèques nécessaires
 import pandas as pd
 import matplotlib.pyplot as plt
